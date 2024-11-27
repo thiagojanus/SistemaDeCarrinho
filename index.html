@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Kanit&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+
+    <title>Pizzaria da Nonna</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+    <!-- modelos de pizza na lista e no carrinho -->
+    <div class="models">
+        <!-- pizza na lista -->
+        <div class="pizza-item">
+            <a href="">
+                <div class="pizza-item--img"><img src="" /></div>
+                <div class="pizza-item--add">+</div>
+            </a>
+            <div class="pizza-item--price">R$ --</div>
+            <div class="pizza-item--name">--</div>
+            <div class="pizza-item--desc">--</div>
+        </div>
+
+        <!-- pizza no carrinho -->
+        <div class="cart--item">
+            <img src="" />
+            <div class="cart--item-nome">--</div>
+            <div class="cart--item--qtarea">
+                <button class="cart--item-qtmenos">-</button>
+                <div class="cart--item--qt">1</div>
+                <button class="cart--item-qtmais">+</button>
+            </div>
+        </div>
+    </div>
+    <!-- /models -->
+
+    <!-- .menu-openner aparecera no modo mobile -->
+    <header>
+        <h1>Pizzaria da Nonna</h1>
+        <nav>
+            <ul class="menu">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="prod.html">Cardápio</a></li>
+              <li><a href="#Avaliações">Avaliações</a></li>
+              <li><a href="#Contato">Contato</a></li>
+            </ul>
+          </nav>
+    </header>
+    <!-- /menu-openner -->
+
+    <!-- conteudo principal -->
+    <main>
+        <figure>
+            <img class="direita" src="images/aldward-castillo-YCrBHi0K4q4-unsplash 1.svg" alt="">
+        </figure>
+        <h2 class="h2">Sobre a nossa loja</h2>
+         <p>Bem-vindo à Pizzaria da Nona! Aqui, a tradição e o sabor se encontram em cada fatia, inspirados nas receitas caseiras que passaram de geração em geração. Oferecemos uma experiência gastronômica única, em um ambiente acolhedor que celebra a culinária italiana. Nossa variedade de pizzas é preparada com ingredientes frescos e de alta qualidade, desde clássicas como Margherita e Calabresa até criações exclusivas da nossa nona, tudo feito com carinho e dedicação. Seja para um jantar em família, uma noite com amigos ou uma comemoração especial, a Pizzaria da Nona é o lugar ideal. Venha descobrir o sabor da tradição e fazer parte da nossa história! Aguardamos sua visita!</p> 
+      <br>
+      <br>
+      <section id="Avaliações">
+       <h2 class="prod">Avaliações e Testemunhos</h2>
+       <div class="testimonial-container">
+           <div class="testimonial active">
+               <img src="images/testimonials-5.jpg" alt="John Larson">
+               <blockquote>"A pizzaria da Nonna é simplesmente encantadora! As pizzas têm um sabor caseiro que me faz sentir como se estivesse na Itália."</blockquote>
+               <cite>John Larson, Entrepreneur</cite>
+           </div>
+           <div class="testimonial">
+               <img src="images/testimonials-1.jpg" alt="Jane Doe">
+               <blockquote>"O atendimento na pizzaria da Nonna é excepcional. A equipe é sempre atenciosa e faz você se sentir em casa."</blockquote>
+               <cite>Jane Doe, CEO</cite>
+           </div>
+           <div class="testimonial">
+               <img src="images/testimonials-2.jpg" alt="Bob Smith">
+               <blockquote>"As opções de sabores são incríveis! Cada pizza vem com ingredientes frescos e de qualidade."</blockquote>
+               <cite>Bob Smith, Freelancer</cite>
+           </div>
+           <div class="testimonial">
+            <img src="images/testimonials-3.jpg" alt="Bob Smith">
+            <blockquote>"Adorei a atmosfera acolhedora da pizzaria da Nonna. É o lugar perfeito para um jantar em família ou uma noite com amigos."</blockquote>
+            <cite>Bobby Charlton, Freelancer</cite>
+        </div>
+           <div class="carousel-dots">
+               <button class="dot active"></button>
+               <button class="dot"></button>
+               <button class="dot"></button>
+               <button class="dot"></button>
+           </div>
+       </div>
+    </section> 
+
+    <section class="contato" id="Contato">
+        <div class="container">
+            <div class="map-section">
+                <h1 class="h1-mapa">Aonde nos encontrar</h1>
+                <div class="map-description">
+                    Confira nossa pizzaria no mapa interativo abaixo e veja nossos horários de funcionamento para planejar sua visita!
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.4114834461375!2d-74.00594468475065!3d40.71278374377236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a23e28c1169%3A0x49f75d3281df052a!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1669478842868!5m2!1sen!2sus" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            <div class="form-section">
+                <h2 class="h2-forms">Fale Conosco</h2>
+                <div class="map-description1">
+                    Se você tiver alguma dúvida ou precisar de mais informações, não hesite em nos contatar. Estamos aqui para ajudar!
+                </div>
+                <form>
+                    <input type="text" placeholder="Seu Nome" required>
+                    <input type="email" placeholder="Seu Email" required>
+                    <input type="text" placeholder="Assunto" required>
+                    <textarea placeholder="Digite a mensagem" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer style="background-color: #4A7C2A; color: #fff; padding: 20px; text-align: center; font-family: Poppins, sans-serif;">
+        <div>
+            <h2 style="margin: 0; font-size: 24px; color: #fff;">Pizzaria da Nonna</h2>
+            <p style="margin: 5px 0; font-size: 16px; text-align: center; color: #fff; font-weight: 200;">O sabor da tradição!</p>
+            <p style="margin: 10px 0; font-size: 14px; text-align: center; color: #fff;">&copy; 2024 Pizzaria Nonna. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+      
+    </main>
+    
+    <!-- /conteudo principal -->
+
+    <!-- aside do carrinho -->
+    <aside>
+        <div class="cart--area">
+            <div class="menu-closer">❌</div>
+            <h1>Suas Pizzas</h1>
+            <div class="cart"></div>
+            <div class="cart--details">
+                <div class="cart--totalitem subtotal">
+                    <span>Subtotal</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem desconto">
+                    <span>Desconto</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem total big">
+                    <span>Total</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--finalizar">Finalizar a compra</div>
+            </div>
+        </div>
+    </aside>
+    <!-- /aside do carrinho -->
+
+    <!-- janela modal .pizzaWindowArea -->
+    <div class="pizzaWindowArea">
+        <div class="pizzaWindowBody">
+            <div class="pizzaInfo--cancelMobileButton">Voltar</div>
+            <div class="pizzaBig">
+                <img src="" />
+            </div>
+            <div class="pizzaInfo">
+                <h1>--</h1>
+                <div class="pizzaInfo--desc">--</div>
+                <div class="pizzaInfo--sizearea">
+                    <div class="pizzaInfo--sector">Tamanho</div>
+                    <div class="pizzaInfo--sizes">
+                        <div data-key="P" class="pizzaInfo--size">PEQUENA <span>--</span></div>
+                        <div data-key="M" class="pizzaInfo--size">MÉDIA <span>--</span></div>
+                        <div data-key="G" class="pizzaInfo--size selected">GRANDE <span>--</span></div>
+                    </div>
+                </div>
+                <div class="pizzaInfo--pricearea">
+                    <div class="pizzaInfo--sector">Preço</div>
+                    <div class="pizzaInfo--price">
+                        <div class="pizzaInfo--actualPrice">R$ --</div>
+                        <div class="pizzaInfo--qtarea">
+                            <button class="pizzaInfo--qtmenos">-</button>
+                            <div class="pizzaInfo--qt">1</div>
+                            <button class="pizzaInfo--qtmais">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="pizzaInfo--addButton">Adicionar ao carrinho</div>
+                <div class="pizzaInfo--cancelButton">Cancelar</div>
+            </div>
+        </div>
+    </div>
+    <!-- /janela modal .pizzaWindowArea -->
+
+    <script>
+        // JavaScript
+        const testimonials = document.querySelectorAll('.testimonial');
+        const prevBtn = document.getElementById('prev-btn');
+        const nextBtn = document.getElementById('next-btn');
+        const dotButtons = document.querySelectorAll('.carousel-dots .dot');
+    
+        let currentIndex = 0;
+
+        function showTestimonial(index) {
+            testimonials.forEach((testimonial, i) => {
+                testimonial.classList.toggle('active', i === index);
+            });
+    
+            dotButtons.forEach((dot, i) => {
+                dot.classList.toggle('active', i === index);
+            });
+        }
+    
+        prevBtn.addEventListener('click', () => {
+            currentIndex = (currentIndex - 1 + testimonials.length) % testimonials.length;
+            showTestimonial(currentIndex);
+        });
+    
+        nextBtn.addEventListener('click', () => {
+            currentIndex = (currentIndex + 1) % testimonials.length;
+            showTestimonial(currentIndex);
+        });
+    
+        dotButtons.forEach((dot, index) => {
+            dot.addEventListener('click', () => {
+                currentIndex = index;
+                showTestimonial(currentIndex);
+            });
+        });
+    
+        // Auto slide functionality
+        setInterval(() => {
+            currentIndex = (currentIndex + 1) % testimonials.length;
+            showTestimonial(currentIndex);
+        }, 5000); // Muda a cada 5 segundos
+    
+        showTestimonial(currentIndex);
+    </script>
+
+    <script>
+        document.querySelector('form').addEventListener('submit', (event) => {
+            event.preventDefault();
+            // Add your form submission logic here
+            console.log('Form submitted');
+        });
+    </script>
+    
+    <script src="pizzas.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
